@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моё портфолио</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Привет! Я werzziozz17 👋</h1>
+    <p>Я изучаю Frontend-разработку в Казахстане.</p>
+
+    <h2>Мои навыки</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript — изучаю</li>
+    </ul>
+
+    <p>Это мой первый учебный сайт!</p>
+    <a href="https://github.com/werzziozz17">
+      Мой GitHub
+    </a>
+  </main>
+</body>
+</html>
