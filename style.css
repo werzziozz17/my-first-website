@@ -1,29 +1,131 @@
 
-body {
-  background: #eaf0f8;
-  font-family: Arial, sans-serif;
-  padding: 40px 20px;
-  color: #1e293b;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.card {
-  background: white;
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 35px;
-  border-radius: 18px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+  min-height: 100vh;
+}
+
+.navbar {
+  max-width: 1000px;
+  margin: auto;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #38bdf8;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  max-width: 850px;
+  margin: 90px auto 60px;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #38bdf8;
+  letter-spacing: 3px;
+  font-size: 13px;
+  margin-bottom: 25px;
 }
 
 h1 {
-  color: #2563eb;
+  font-size: 42px;
+  margin-bottom: 20px;
 }
 
-h2 {
-  color: #334155;
+h1 span {
+  color: #38bdf8;
 }
 
-a {
-  color: #2563eb;
+.description {
+  color: #cbd5e1;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.button {
+  display: inline-block;
+  background: #0284c7;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
   text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #0369a1;
+}
+
+.content {
+  max-width: 700px;
+  margin: auto;
+  padding: 35px 25px;
+  background: #1e293b;
+  border-radius: 16px;
+  line-height: 1.8;
+}
+
+.content h2 {
+  color: #38bdf8;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+.content p {
+  color: #cbd5e1;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: #334155;
+  color: #7dd3fc;
+  padding: 8px 14px;
+  border-radius: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 35px 15px;
+  color: #94a3b8;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .hero {
+    margin-top: 50px;
+  }
+
+  .content {
+    margin: 15px;
+  }
 }
