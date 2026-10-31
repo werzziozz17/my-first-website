@@ -4,25 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Моё портфолио</title>
+  <title>Портфолио — werzziozz17</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="card">
-    <h1>Привет! Я werzziozz17 👋</h1>
-    <p>Я изучаю Frontend-разработку в Казахстане.</p>
 
-    <h2>Мои навыки</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript — изучаю</li>
-    </ul>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">werzziozz17</a>
+      <a href="#about" class="nav-link">Обо мне</a>
+    </nav>
+  </header>
 
-    <p>Это мой первый учебный сайт!</p>
-    <a href="https://github.com/werzziozz17">
-      Мой GitHub
-    </a>
+  <main>
+    <section class="hero">
+      <p class="subtitle">БУДУЩИЙ FRONTEND-РАЗРАБОТЧИК</p>
+      <h1>Привет! Я <span>werzziozz17</span> 👋</h1>
+      <p class="description">
+        Изучаю веб-разработку и создаю красивые сайты
+        с помощью HTML, CSS и JavaScript.
+      </p>
+      <a class="button" href="https://github.com/werzziozz17">
+        Мой GitHub
+      </a>
+    </section>
+
+    <section class="content" id="about">
+      <h2>Обо мне</h2>
+      <p>
+        Я начинающий frontend-разработчик из Казахстана.
+        Сейчас учусь создавать современные и удобные сайты.
+      </p>
+
+      <h2>Мои навыки</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript — изучаю</span>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    © 2026 werzziozz17 | Мой первый сайт
+  </footer>
+
 </body>
 </html>
